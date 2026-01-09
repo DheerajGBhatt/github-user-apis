@@ -1,6 +1,6 @@
 ## Objective
 
-Build a **Node.js REST API** that generates a comprehensive **Developer Profile** for a given GitHub user.
+Build a **Node.js REST API** that retrives data for a given GitHub user.
 
 The API integrates with the **GitHub REST API** to measure developer impact, list projects, and analyze language usage.
 
@@ -9,7 +9,6 @@ The API integrates with the **GitHub REST API** to measure developer impact, lis
 **Focus:** API design, async orchestration, problem-solving, and JavaScript fundamentals
 
 ---
-
 
 ## Setup
 
@@ -187,7 +186,6 @@ Analyzes the user’s **language distribution** across all repositories.
 }
 
 ```
-
 
 ## What We're Looking For
 
