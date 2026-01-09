@@ -10,14 +10,6 @@ The API integrates with the **GitHub REST API** to measure developer impact, lis
 
 ---
 
-## Technical Requirements
-
-- Error Handling\*\*: If individual users fail (e.g., user not found), they are included in the `failed` array while others continue processing
-- Input Validation
-- 
-- **Sorting**: Leaderboard is returned sorted by score in descending order
-
----
 
 ## Setup
 
