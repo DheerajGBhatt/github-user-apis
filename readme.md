@@ -163,7 +163,7 @@ Returns all **public repositories** owned by the user.
 
 ---
 
-### `GET /users/:username/languages` — Polyglot Profile
+### `GET /users/:username/languages` —  Get Languages Distribution
 
 Analyzes the user’s **language distribution** across all repositories.
 
