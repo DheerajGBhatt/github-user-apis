@@ -14,7 +14,7 @@ The API integrates with the **GitHub REST API** to measure developer impact, lis
 
 - Error Handling\*\*: If individual users fail (e.g., user not found), they are included in the `failed` array while others continue processing
 - Input Validation
--
+- 
 - **Sorting**: Leaderboard is returned sorted by score in descending order
 
 ---
@@ -69,8 +69,8 @@ The server will start on `http://localhost:3000` by default.
 
 ## API Endpoints
 
-| Method | Endpoint                     | Description                                   |
-| ------ | ---------------------------- | --------------------------------------------- |
+| Method   | Endpoint                       | Description                                   |
+| -------- | ------------------------------ | --------------------------------------------- |
 | `POST` | `/users`                     | Get leaderboard                               |
 | `GET`  | `/users/:username/projects`  | List all public repositories for a user       |
 | `GET`  | `/users/:username/languages` | Get language distribution across user's repos |
@@ -182,7 +182,6 @@ Analyzes the user’s **language distribution** across all repositories.
 2. For each repository, fetch language byte data
 
    `GET /repos/{owner}/{repo}/languages`
-
 3. Aggregate total bytes per language
 4. Convert totals into **percentage distribution**
 
@@ -194,4 +193,31 @@ Analyzes the user’s **language distribution** across all repositories.
 
   "TypeScript": "30%"
 }
+
 ```
+
+
+## What We're Looking For
+
+* **Problem-solving skills** - Debug and fix existing authentication issues
+* **API design knowledge** - Implement RESTful endpoints following best practices
+* **External API integration** - Work with PokeAPI and handle external data
+* **JavaScript proficiency** - Write clean, maintainable JavaScript code
+* **Error handling** - Proper HTTP status codes and error responses
+* **Code quality** - Clean, readable, and maintainable code
+* **Testing awareness** - Ensure all provided tests pass
+* **System design** - Battle simulation logic and Pokemon data management
+
+## Evaluation Criteria
+
+* Complete and correct functionality
+* Proper error handling and status codes
+* Clean code structure and JavaScript best practices
+* Readable and maintainable code
+* Consistent with existing patterns
+* Good validation and security practices
+* All tests passing
+* Clear commit messages and comments
+* External API integration working correctly
+* Battle simulation logic implemented properly
+* Just make sure add comment explaining complicated parts for code
